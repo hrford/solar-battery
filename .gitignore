@@ -1,6 +1,6 @@
 bin/
 lib/
-lib64/
+lib64
 share/
 __pycache__/
 include/
