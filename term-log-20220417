@@ -1,0 +1,1056 @@
+            Voltage = 53.056
+            Power = 0.0
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 74.0
+                Total = 74.0
+    TotalPower = 0.0
+    StateOfCharge = 1.0
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0D710D780D780D780D780D770D770D780D7B0D7D0D7B0D7A0D7A0D7A0D7A050B730B550B550B550B55FFD6CA12FFFF04FFFF009A011E2C012110E246\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.441
+                3.448
+                3.448
+                3.448
+                3.448
+                3.447
+                3.447
+                3.448
+                3.451
+                3.453
+                3.451
+                3.45
+                3.45
+                3.45
+                3.45
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 20.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -4.2
+            Voltage = 51.73
+            Power = -217.266
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 73.26
+                Total = 74.0
+    TotalPower = -217.266
+    StateOfCharge = 1.0
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0D5F0D660D640D650D650D630D650D640D660D670D680D670D660D680D66050B7D0B550B550B550B55FFD8C8EFFFFF04FFFF009A011E2C012110E271\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.423
+                3.43
+                3.428
+                3.429
+                3.429
+                3.427
+                3.429
+                3.428
+                3.43
+                3.431
+                3.432
+                3.431
+                3.43
+                3.432
+                3.43
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -4.0
+            Voltage = 51.439
+            Power = -205.756
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 73.26
+                Total = 74.0
+    TotalPower = -205.756
+    StateOfCharge = 1.0
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0D3D0D420D410D400D420D410D420D420D430D440D420D420D420D430D43050B7D0B550B550B550B55FFD8C6DAFFFF04FFFF009A011E2C012110E2CC\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.389
+                3.394
+                3.393
+                3.392
+                3.394
+                3.393
+                3.394
+                3.394
+                3.395
+                3.396
+                3.394
+                3.394
+                3.394
+                3.395
+                3.395
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -4.0
+            Voltage = 50.906
+            Power = -203.624
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 73.26
+                Total = 74.0
+    TotalPower = -203.624
+    StateOfCharge = 1.0
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0D2B0D300D2F0D2E0D2E0D2E0D2F0D300D320D310D310D320D300D300D30050B7D0B550B550B550B55FFD6C5C9FFFF04FFFF009A011E2C012110E29A\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.371
+                3.376
+                3.375
+                3.374
+                3.374
+                3.374
+                3.375
+                3.376
+                3.378
+                3.377
+                3.377
+                3.378
+                3.376
+                3.376
+                3.376
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -4.2
+            Voltage = 50.633
+            Power = -212.6586
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 73.26
+                Total = 74.0
+    TotalPower = -212.6586
+    StateOfCharge = 1.0
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0D1E0D200D200D200D200D200D200D200D230D240D230D230D220D230D23050B7D0B550B550B550B55FFD8C4F3FFFF04FFFF009A011E2C012110E2FF\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.358
+                3.36
+                3.36
+                3.36
+                3.36
+                3.36
+                3.36
+                3.36
+                3.363
+                3.364
+                3.363
+                3.363
+                3.362
+                3.363
+                3.363
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -4.0
+            Voltage = 50.419
+            Power = -201.676
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 73.26
+                Total = 74.0
+    TotalPower = -201.676
+    StateOfCharge = 1.0
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0D0B0D0E0D0D0D0B0D0E0D0D0D0D0D0C0D0E0D0D0D0F0D0E0D0E0D0E0D0F050B7D0B550B550B550B55FFDAC3C8FFFF04FFFF009A011E2C012110E20B\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.339
+                3.342
+                3.341
+                3.339
+                3.342
+                3.341
+                3.341
+                3.34
+                3.342
+                3.341
+                3.343
+                3.342
+                3.342
+                3.342
+                3.343
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -3.8
+            Voltage = 50.12
+            Power = -190.456
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 73.26
+                Total = 74.0
+    TotalPower = -190.456
+    StateOfCharge = 1.0
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0CF70CF90CF90CF80CF70CF60CFA0CF90CF90CF90CFA0CFA0CFA0CF80CF8050B7D0B550B550B550B55FFD6C291FFFF04FFFF009A011E2C012110E181\r'
+Traceback (most recent call last):
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/lib/containers.py", line 93, in __getattr__
+    return self[name]
+KeyError: 'Capacity'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pylontech-debug.py", line 14, in <module>
+    main()
+  File "pylontech-debug.py", line 10, in main
+    print("values:", p.get_values())
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/pylontech/pylontech.py", line 222, in get_values
+    d = self.get_values_fmt.parse(f.info[1:])
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 288, in parse
+    return self.parse_stream(io.BytesIO(data), **contextkw)
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 300, in parse_stream
+    return self._parsereport(stream, context, "(parsing)")
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 312, in _parsereport
+    obj = self._parse(stream, context, path)
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 2120, in _parse
+    subobj = sc._parsereport(stream, context, path)
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 312, in _parsereport
+    obj = self._parse(stream, context, path)
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 2653, in _parse
+    return self.subcon._parsereport(stream, context, path)
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 312, in _parsereport
+    obj = self._parse(stream, context, path)
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 2798, in _parse
+    return self.func(context) if callable(self.func) else self.func
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/pylontech/pylontech.py", line 102, in <lambda>
+    lambda this: sum([x.US3000.Capacity.Remaining for x in this.Module]) / sum([x.US3000.Capacity.Total for x in this.Module])),
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/pylontech/pylontech.py", line 102, in <listcomp>
+    lambda this: sum([x.US3000.Capacity.Remaining for x in this.Module]) / sum([x.US3000.Capacity.Total for x in this.Module])),
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/lib/containers.py", line 95, in __getattr__
+    raise AttributeError(name)
+AttributeError: Capacity
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0CED0CED0CEE0CED0CEE0CED0CEE0CED0CEC0CF00CED0CEE0CED0CED0CED050B7D0B550B550B550B55FFD6C1E9FFFF04FFFF009A011B48012110E10A\r'
+Traceback (most recent call last):
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/lib/containers.py", line 93, in __getattr__
+    return self[name]
+KeyError: '_subcons'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pylontech-debug.py", line 14, in <module>
+    main()
+  File "pylontech-debug.py", line 10, in main
+    print("values:", p.get_values())
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/pylontech/pylontech.py", line 223, in get_values
+    d = self.get_values_fmt.parse(f.info[1:])
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 288, in parse
+    return self.parse_stream(io.BytesIO(data), **contextkw)
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 300, in parse_stream
+    return self._parsereport(stream, context, "(parsing)")
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 312, in _parsereport
+    obj = self._parse(stream, context, path)
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 2120, in _parse
+    subobj = sc._parsereport(stream, context, path)
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 312, in _parsereport
+    obj = self._parse(stream, context, path)
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 2653, in _parse
+    return self.subcon._parsereport(stream, context, path)
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 312, in _parsereport
+    obj = self._parse(stream, context, path)
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/core.py", line 2798, in _parse
+    return self.func(context) if callable(self.func) else self.func
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/pylontech/pylontech.py", line 102, in <lambda>
+    lambda this: sum([x._subcons.US3000.Capacity.Remaining for x in this.Module]) / sum([x._subcons.US3000.Capacity.Total for x in this.Module])
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/pylontech/pylontech.py", line 102, in <listcomp>
+    lambda this: sum([x._subcons.US3000.Capacity.Remaining for x in this.Module]) / sum([x._subcons.US3000.Capacity.Total for x in this.Module])
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/construct/lib/containers.py", line 95, in __getattr__
+    raise AttributeError(name)
+AttributeError: _subcons
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Traceback (most recent call last):
+  File "pylontech-debug.py", line 1, in <module>
+    import pylontech
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/pylontech/__init__.py", line 1, in <module>
+    from .pylontech import Pylontech
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/pylontech/pylontech.py", line 40, in <module>
+    class Pylontech:
+  File "/home/hrf/projects/mendip/lib/python3.8/site-packages/pylontech/pylontech.py", line 101, in Pylontech
+    "US3000Debug" / construct.Computed(this.Module),
+NameError: name 'this' is not defined
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0CEB0CEC0CEC0CEC0CEC0CEB0CED0CEC0CED0CEE0CEF0CEF0CED0CEF0CED050B7D0B550B550B550B55FFD7C1E1FFFF04FFFF009A011B48012110E103\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.307
+                3.308
+                3.308
+                3.308
+                3.308
+                3.307
+                3.309
+                3.308
+                3.309
+                3.31
+                3.311
+                3.311
+                3.309
+                3.311
+                3.309
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -4.1
+            Voltage = 49.633
+            Power = -203.4953
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 72.52
+                Total = 74.0
+    TotalPower = -203.4953
+    StateOfCharge = 1.0
+    US3000Debug = [Container(NumberOfCells=15, CellVoltages=ListContainer([3.307, 3.308, 3.308, 3.308, 3.308, 3.307, 3.309, 3.308, 3.309, 3.31, 3.311, 3.311, 3.309, 3.311, 3.309]), NumberOfTemperatures=5, AverageBMSTemperature=21.0, GroupedCellsTemperatures=ListContainer([17.0, 17.0, 17.0, 17.0]), Current=-4.1, Voltage=49.633, Power=-203.4953, RemainingCapacity=65.535, UserDefinedItems=4, TotalCapacity=65.535, CycleNumber=154, US3000=Container(Remaining=72.52, Total=74.0))]
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0CEF0CEF0CEF0CED0CEE0CED0CED0CEC0CEE0CEF0CEF0CEF0CEF0CED0CEE050B7D0B550B550B550B55FFD6C1F3FFFF04FFFF009A011B48012110E0EF\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.311
+                3.311
+                3.311
+                3.309
+                3.31
+                3.309
+                3.309
+                3.308
+                3.31
+                3.311
+                3.311
+                3.311
+                3.311
+                3.309
+                3.31
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -4.2
+            Voltage = 49.651
+            Power = -208.53420000000003
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 72.52
+                Total = 74.0
+    TotalPower = -208.53420000000003
+    StateOfCharge = 1.0
+    US3000Debug = [Container(Remaining=72.52, Total=74.0)]
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0CEE0CEE0CEC0CEE0CEE0CED0CED0CEE0CEE0CEE0CEE0CEC0CEE0CED0CED050B7D0B550B550B550B55FFD7C1EAFFFF04FFFF009A011B48012110E0EA\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.31
+                3.31
+                3.308
+                3.31
+                3.31
+                3.309
+                3.309
+                3.31
+                3.31
+                3.31
+                3.31
+                3.308
+                3.31
+                3.309
+                3.309
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -4.1
+            Voltage = 49.642
+            Power = -203.5322
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 72.52
+                Total = 74.0
+    TotalPower = -203.5322
+    StateOfCharge = 1.0
+    US3000Debug = [Container(Remaining=72.52, Total=74.0)]
+    StateOfChargeUS3000 = 0.98
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0CF10CF00CF00CEF0CF00CEF0CEE0CEF0CF00CF10CEF0CEE0CF00CF00CEF050B7D0B550B550B550B55FFE8C209FFFF04FFFF009A011B48012110E195\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.313
+                3.312
+                3.312
+                3.311
+                3.312
+                3.311
+                3.31
+                3.311
+                3.312
+                3.313
+                3.311
+                3.31
+                3.312
+                3.312
+                3.311
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -2.4
+            Voltage = 49.673
+            Power = -119.2152
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 72.52
+                Total = 74.0
+    TotalPower = -119.2152
+    StateOfCharge = 1.0
+    US3000Debug = [Container(Remaining=72.52, Total=74.0)]
+    StateOfChargeUS3000 = 0.98
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0CF00CF00CF10CEF0CF00CF20CF10CF10CF20CF10CF20CF20CF20CF10CF2050B7D0B550B550B550B55FFE6C220FFFF04FFFF009A011864012110E217\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.312
+                3.312
+                3.313
+                3.311
+                3.312
+                3.314
+                3.313
+                3.313
+                3.314
+                3.313
+                3.314
+                3.314
+                3.314
+                3.313
+                3.314
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -2.6
+            Voltage = 49.696
+            Power = -129.2096
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 71.78
+                Total = 74.0
+    TotalPower = -129.2096
+    StateOfCharge = 1.0
+    US3000Debug = [Container(Remaining=71.78, Total=74.0)]
+    StateOfChargeUS3000 = 0.97
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0CF10CF30CF10CF10CF20CF20CF20CF20CF20CF10CF20CF20CF20CF30CF2050B7D0B550B550B550B55FFE5C22CFFFF04FFFF009A011864012110E20F\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.313
+                3.315
+                3.313
+                3.313
+                3.314
+                3.314
+                3.314
+                3.314
+                3.314
+                3.313
+                3.314
+                3.314
+                3.314
+                3.315
+                3.314
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -2.7
+            Voltage = 49.708
+            Power = -134.2116
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 71.78
+                Total = 74.0
+    TotalPower = -134.2116
+    StateOfCharge = 1.0
+    StateOfChargeUS3000 = 0.97
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0CEE0CEE0CED0CEF0CEE0CEE0CEF0CEE0CEF0CED0CEF0CEE0CEF0CEE0CEE050B7D0B550B550B550B55FFDBC1F5FFFF04FFFF009A011864012110E0EB\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.31
+                3.31
+                3.309
+                3.311
+                3.31
+                3.31
+                3.311
+                3.31
+                3.311
+                3.309
+                3.311
+                3.31
+                3.311
+                3.31
+                3.31
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -3.7
+            Voltage = 49.653
+            Power = -183.7161
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 71.78
+                Total = 74.0
+    TotalPower = -183.7161
+    StateOfCharge = 1.0
+    StateOfChargeUS3000 = 0.97
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0CF10CF20CF30CF00CF10CF00CF20CF30CF30CF40CF20CF20CF10CF30CF3050B7D0B550B550B550B55FFF6C22EFFFF04FFFF009A011864012110E209\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.313
+                3.314
+                3.315
+                3.312
+                3.313
+                3.312
+                3.314
+                3.315
+                3.315
+                3.316
+                3.314
+                3.314
+                3.313
+                3.315
+                3.315
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -1.0
+            Voltage = 49.71
+            Power = -49.71
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 71.78
+                Total = 74.0
+    TotalPower = -49.71
+    StateOfCharge = 1.0
+    StateOfChargeUS3000 = 0.97
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0CF40CF50CF50CF60CF50CF40CF50CF40CF50CF50CF70CF60CF50CF60CF5050B7D0B550B550B550B55FFF7C25DFFFF04FFFF009A011864012110E1D7\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.316
+                3.317
+                3.317
+                3.318
+                3.317
+                3.316
+                3.317
+                3.316
+                3.317
+                3.317
+                3.319
+                3.318
+                3.317
+                3.318
+                3.317
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -0.9
+            Voltage = 49.757
+            Power = -44.7813
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 71.78
+                Total = 74.0
+    TotalPower = -44.7813
+    StateOfCharge = 1.0
+    StateOfChargeUS3000 = 0.97
+hrf@hrf-Latitude-D630C:~/projects/mendip$ bin/python3 pylontech-debug.py 
+Mendip Pylontech US3000 debug
+raw_frame: b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r'
+sys_params: Container: 
+    CellHighVoltageLimit = 3.65
+    CellLowVoltageLimit = 3.05
+    CellUnderVoltageLimit = 2.9
+    ChargeHighTemperatureLimit = 61.0
+    ChargeLowTemperatureLimit = -11.0
+    ChargeCurrentLimit = 10.2
+    ModuleHighVoltageLimit = 54.0
+    ModuleLowVoltageLimit = 46.0
+    ModuleUnderVoltageLimit = 44.5
+    DischargeHighTemperatureLimit = 61.0
+    DischargeLowTemperatureLimit = -11.0
+    DischargeCurrentLimit = -10.0
+raw_frame: b'~20024600F07A11010F0CF50CF50CF60CF60CF70CF50CF40CF50CF50CF60CF70CF60CF80CF60CF7050B7D0B550B550B550B55FFF2C268FFFF04FFFF009A011864012110E1DC\r'
+values: Container: 
+    NumberOfModules = 1
+    Module = ListContainer: 
+        Container: 
+            NumberOfCells = 15
+            CellVoltages = ListContainer: 
+                3.317
+                3.317
+                3.318
+                3.318
+                3.319
+                3.317
+                3.316
+                3.317
+                3.317
+                3.318
+                3.319
+                3.318
+                3.32
+                3.318
+                3.319
+            NumberOfTemperatures = 5
+            AverageBMSTemperature = 21.0
+            GroupedCellsTemperatures = ListContainer: 
+                17.0
+                17.0
+                17.0
+                17.0
+            Current = -1.4
+            Voltage = 49.768
+            Power = -69.67519999999999
+            RemainingCapacity = 65.535
+            UserDefinedItems = 4
+            TotalCapacity = 65.535
+            CycleNumber = 154
+            US3000 = Container: 
+                Remaining = 71.78
+                Total = 74.0
+    TotalPower = -69.67519999999999
+    StateOfCharge = 1.0
+    StateOfChargeUS3000 = 0.97
+hrf@hrf-Latitude-D630C:~/projects/mendip$ 
