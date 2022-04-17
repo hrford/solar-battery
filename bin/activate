@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/hrf/projects/mendip"
+VIRTUAL_ENV="/home/hrf/projects/mendip/solar-battery"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
