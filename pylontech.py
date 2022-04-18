@@ -112,7 +112,6 @@ class Pylontech:
 
     def __init__(self, serial_port='/dev/ttyUSB0', baudrate=115200):
         self.s = serial.Serial(serial_port, baudrate, bytesize=8, parity=serial.PARITY_NONE, stopbits=1, timeout=2)
-        return
 
 
     @staticmethod
@@ -187,6 +186,7 @@ class Pylontech:
         f = self._decode_hw_frame(raw_frame=raw_frame)
         parsed = self._decode_frame(f)
         return parsed
+
 
     def get_protocol_version(self):
         self.send_cmd(0, 0x4f)
