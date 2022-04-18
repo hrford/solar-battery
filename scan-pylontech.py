@@ -10,6 +10,6 @@ def main():
     print("values:", p.get_values())
 
 if __name__ == "__main__":
-    print("Mendip Pylontech US3000 debug")
+    print("Mendip Pylontech US3000 scanner")
     main()
 
