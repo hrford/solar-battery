@@ -85,29 +85,33 @@ class Pylontech:
             "Current" / ToAmp(construct.Int16sb),
             "Voltage" / ToVolt(construct.Int16ub),
             "Power" / construct.Computed(construct.this.Current * construct.this.Voltage),
-            "RemainingCapacity" / DivideBy1000(construct.Int16ub),
+            "RemainingCapacityLowC" / DivideBy1000(construct.Int16ub),
             "UserDefinedItems" / construct.Int8ub,
-            "TotalCapacity" / DivideBy1000(construct.Int16ub),
+            "TotalCapacityLowC" / DivideBy1000(construct.Int16ub),
             "CycleNumber" / construct.Int16ub,
-            "US3000" / construct.If(construct.this.UserDefinedItems > 2,
+            "HighC" / construct.If(construct.this.UserDefinedItems > 2,
                 "Capacity" / construct.Struct(
                     "Remaining" / DivideBy1000(construct.Int24ub),
                     "Total" / DivideBy1000(construct.Int24ub),
                 )
+            ),
+            "RemainingCapacity" / construct.IfThenElse(construct.this.UserDefinedItems > 2,
+                "LowC" / construct.Computed(construct.this.HighC.Remaining),
+                "HighC" / construct.Computed(construct.this.RemainingCapacityLowC)
+            ),
+            "TotalCapacity" / construct.IfThenElse(construct.this.UserDefinedItems > 2,
+                "LowC" / construct.Computed(construct.this.HighC.Total),
+                "HighC" / construct.Computed(construct.this.TotalCapacityLowC)
             ),
         )),
         "TotalPower" / construct.Computed(lambda this: sum([x.Power for x in this.Module])),
         "StateOfCharge" / construct.Computed(
             lambda this: sum([x.RemainingCapacity for x in this.Module]) / sum([x.TotalCapacity for x in this.Module])
         ),
-        #"US3000Debug" / construct.Computed(lambda this: [x.US3000 for x in this.Module]),
-        "StateOfChargeUS3000" / construct.Computed(
-            lambda this: sum([x.US3000.Remaining for x in this.Module]) / sum([x.US3000.Total for x in this.Module])
-        ),
     )
 
     def __init__(self, serial_port='/dev/ttyUSB0', baudrate=115200):
-        #self.s = serial.Serial(serial_port, baudrate, bytesize=8, parity=serial.PARITY_NONE, stopbits=1, timeout=2)
+        self.s = serial.Serial(serial_port, baudrate, bytesize=8, parity=serial.PARITY_NONE, stopbits=1, timeout=2)
         return
 
 
@@ -184,11 +188,6 @@ class Pylontech:
         parsed = self._decode_frame(f)
         return parsed
 
-    def get_debug_frame(self, raw_frame):
-        f = self._decode_hw_frame(raw_frame=raw_frame)
-        parsed = self._decode_frame(f)
-        return parsed
-
     def get_protocol_version(self):
         self.send_cmd(0, 0x4f)
         return self.read_frame()
@@ -201,9 +200,8 @@ class Pylontech:
 
 
     def get_system_parameters(self):
-        #self.send_cmd(2, 0x47)
-        #f = self.read_frame()
-        f = self.get_debug_frame(b'~20024600B032110E420BEA0B540D0D0A3D03FCD2F0B3B0ADD40D0D0A3DFC18F23D\r')
+        self.send_cmd(2, 0x47)
+        f = self.read_frame()
         return self.system_parameters_fmt.parse(f.info[1:])
 
     def get_management_info(self):
@@ -224,10 +222,8 @@ class Pylontech:
         return self.module_serial_number_fmt.parse(f.info[0:])
 
     def get_values(self):
-        #self.send_cmd(2, 0x42, b'FF')
-        #f = self.read_frame()
-        #f = self.get_debug_frame(b'~20024600F07A11010F0DC00DCF0DD10DD00DD00DCF0DD00DD00DD90DD80DD70DD80DD70DD70DD6050B730B4B0B4B0B4B0B4B0002CF53FFFF04FFFF009A012110012110E209\r')
-        f = self.get_debug_frame(b'~2002460061DC11040F0CFD0CFC0CFC0CFB0CFC0CFB0CFD0CFC0CFC0CFB0CFA0CFD0CFB0CFE0CFA050BE10BCD0BCD0BCD0BCD0000C2C1FFFF04FFFF002F00EFEC0121100F0CEB0CEB0CEB0CEA0CEA0CEC0CEB0CEB0CE90CE80CE60CE90CE90CEA0CE8050BE10BCD0BCD0BCD0BCDFFBCC1B2FFFF04FFFF002800F2D00121100F0CE80CE90CEA0CEA0CEA0CE90CEA0CEA0CEB0CEC0CEB0CEB0CEB0CEA0CEA050BE10BC30BC30BC30BC3FFB7C1B8FFFF04FFFF007100E7400121100F0CE90CEC0CEB0CEA0CEA0CEB0CE90CE80CEA0CEA0CEA0CEB0CEC0CEA0CEA050BD70BC30BC30BC30BB9FFBBC1B9FFFF04FFFF006B00ED080121108D63\r')
+        self.send_cmd(2, 0x42, b'FF')
+        f = self.read_frame()
 
         # infoflag = f.info[0]
         d = self.get_values_fmt.parse(f.info[1:])
